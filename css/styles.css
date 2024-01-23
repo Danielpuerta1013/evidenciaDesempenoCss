@@ -63,7 +63,7 @@ legend{
     font-weight: bold;
 }
 label{   
-    
+    margin-right: 20px;
     margin-bottom: 2px;
     padding: 3px;
 }
@@ -74,4 +74,27 @@ textarea{
     margin-bottom: 10px;
     box-sizing: border-box;
     border: 2px solid #000000;
+}
+.input1{
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.input2{
+    width: 180px;
+    margin-right: 10px;
+}
+.input3{
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.input4{
+    width: 210px;
+    margin-right: 10px;
+}
+.input5{
+    width: 180px;
+    margin-right: 10px;
+    margin-bottom: 70px;
 }
