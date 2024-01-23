@@ -1,0 +1,77 @@
+header {    
+    background-color: rgb(46, 46, 193);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+header img {
+    max-width: 20%;    
+    height: auto;
+    margin-right: 20px; 
+}
+
+header h1 {
+    flex-grow: 1; 
+    text-align: center;
+    color: white; /* Color del texto */
+    font-size: 60px; /* Ajusta el tamaño de fuente según sea necesario */
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 0; 
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid;
+    background-color: #ccc
+}
+.contenedorImagenes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedorImagenes img{
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.formulario{
+    max-width: 500%;
+    margin-left: 20px;
+    display: flex;
+    
+    
+}
+fieldset{
+    border: 3px solid;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; */
+}
+legend{
+    font-weight: bold;
+}
+label{   
+    
+    margin-bottom: 2px;
+    padding: 3px;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+}

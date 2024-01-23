@@ -1,0 +1,7 @@
+display flex hace que el contenedor sea flexible y los elementos se organicen de una manera equitativa
+-> flex direction: row o column
+flex wrap--> si cuando se llene continue abajo o se organicen
+-->flex flow me deja acomodar los dos atributos
+justify content -->  organiza los elementos entre si los centra, espacio etc- horizontal
+-- align items: alinea los elementos para que no se expandan en base al eje vertical
+--order: cambiar orden
