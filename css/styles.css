@@ -1,10 +1,12 @@
 header {    
+    width: 100%;
     background-color: rgb(46, 46, 193);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px; 
 }
+
 
 header img {
     max-width: 20%;    
@@ -15,8 +17,8 @@ header img {
 header h1 {
     flex-grow: 1; 
     text-align: center;
-    color: white; /* Color del texto */
-    font-size: 60px; /* Ajusta el tamaño de fuente según sea necesario */
+    color: white; 
+    font-size: 60px; 
 }
 
 button{
@@ -28,6 +30,7 @@ button{
     margin-left: 0; 
 }
 main{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -37,7 +40,7 @@ main{
 .contenedorImagenes{
     display: flex;
     flex-direction: column;
-    
+    width: 50%;
 }
 .contenedorImagenes img{
     max-width: 80%;
@@ -45,22 +48,26 @@ main{
     margin-bottom: 20px;
 }
 .formulario{
-    max-width: 500%;
-    margin-left: 20px;
+    width: 50%;
+    margin-left: 10px;
     display: flex;
     
     
 }
 fieldset{
+    width: 100%;
     border: 3px solid;
     padding: 20px;
-    /* display: flex; */
+    display: flex; 
+    flex-direction: column;
     /* flex-direction: row;
     flex-wrap: wrap;
     align-items: center; */
 }
 legend{
+    display: flex;
     font-weight: bold;
+    flex-direction: column;
 }
 label{   
     margin-right: 20px;
@@ -74,27 +81,4 @@ textarea{
     margin-bottom: 10px;
     box-sizing: border-box;
     border: 2px solid #000000;
-}
-.input1{
-    width: 180px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.input2{
-    width: 180px;
-    margin-right: 10px;
-}
-.input3{
-    width: 180px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.input4{
-    width: 210px;
-    margin-right: 10px;
-}
-.input5{
-    width: 180px;
-    margin-right: 10px;
-    margin-bottom: 70px;
 }
