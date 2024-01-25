@@ -67,9 +67,7 @@ fieldset{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    /* flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center; */
+    
 }
 legend{
     display: flex;
@@ -77,19 +75,9 @@ legend{
     flex-direction: column;
     flex-wrap: wrap;
 }
-label{   
-    margin-right: 20px;
-    margin-bottom: 2px;
-    padding: 3px;
-}
-input,
-textarea{
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-}
+
+
+
 
 .div_interna1,
 .div_interna2 {
@@ -98,20 +86,33 @@ textarea{
     margin-bottom: 10px;
 }
 
+
 .div_interna1 label,
 .div_interna2 label {
     width: 20%; 
     margin-bottom: 2px;
+    margin-right: 20px;    
+    padding: 3px;
 }
 
 .div_interna1 input,
 .div_interna2 input
 {
-    width: 48%; 
+    
+        margin-right: 20px;
+    width: 100%;
+    padding: 8px;
     margin-bottom: 10px;
-    margin-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    
 }
 
 .area_texto{
     margin-top: 50px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
 }
